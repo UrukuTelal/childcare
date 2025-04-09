@@ -155,23 +155,28 @@ header {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); /* Creates a shadow effect */
     margin: 20px auto; /* Center the section and add spacing */
     max-width: 800px; /* Optional: Limit the width of the section */
-    color: #4bca07; /* Ensures text is readable */
+    color: #87fa48; /* Ensures text is readable */
+}
+
+h2 {
+    text-align: center; /* Center align text for headings */
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Space between heading and content */
+    color: #ffcc00; /* Highlight color on hover for better visibility */
+    
 }
 
 /* Style for the footer */
-footer {
-    color: #4bca07; 
-    background-color: rgba(0, 0, 0, 0.8); /* Dark background for footer */
-    text-align: center;
-    padding: 10px;
-}
-
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    color: #4bca07; 
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for footer */
+    text-align: center;
+    padding: 10px;
 }
 
 /* Style for the back button in the footer */
